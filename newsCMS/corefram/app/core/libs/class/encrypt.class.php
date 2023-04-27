@@ -24,10 +24,10 @@ class WUZHI_encrypt {
      */
     public function __construct()
     {
-        if (($this->_support_mcrypt = function_exists('mcrypt_encrypt')) === FALSE)
-        {
-            $this->_support_mcrypt = FALSE;
-        }
+        // if (($this->_support_mcrypt = function_exists('mcrypt_encrypt')) === FALSE)
+        // {
+        //     $this->_support_mcrypt = FALSE;
+        // }
     }
 
     /**
